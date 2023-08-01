@@ -1,6 +1,8 @@
 <template>
   <Header />
-  <div>1231</div>
+  <div>
+    <router-view></router-view>
+  </div>
   <Footer />
 </template>
 
