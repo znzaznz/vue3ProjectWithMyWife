@@ -1,7 +1,9 @@
 <template>
   <Header />
-  <div>
-    <router-view></router-view>
+  <div class="router_container">
+    <div class="container">
+      <router-view></router-view>
+    </div>
   </div>
   <Footer />
 </template>
@@ -12,5 +14,12 @@ import Footer from "@/layout/footer/Footer.vue";
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/styles/common.scss";
 
+.router_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  min-height: 1500px;
+}
 </style>

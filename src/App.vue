@@ -9,7 +9,7 @@ dayjs.locale("zh-cn");
 </script>
 
 <template>
-  <el-config-provider :size="'large'" :lang="zhCn">
+  <el-config-provider :lang="zhCn">
     <Layout />
   </el-config-provider>
 </template>
